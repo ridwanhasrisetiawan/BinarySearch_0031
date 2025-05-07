@@ -43,7 +43,7 @@ void bubbleSortArray()
             if (element[j] > element[j + 1])
             {
                 int temp = element[j];
-                elemet[j] = element[j + 1];
+                element[j] = element[j + 1];
                 element[j + 1] = temp;
             }
         }
@@ -93,7 +93,7 @@ void binarySearch()
             {
                 high = mid - 1;
             }
-            if (x > element[mdi])
+            if (x > element[mid])
             {
                 low = mid + 1;
             }
@@ -107,3 +107,5 @@ void binarySearch()
     cin >> ulang;
     } while (ulang == 'y' || ulang == 'y');
 }
+
+int main()
